@@ -1,0 +1,47 @@
+   /* ESTILOS NUEVOS PARA LA INTEGRACIÓN SIN AFECTAR LO ANTERIOR */
+        .seccion-proceso-moderna {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            margin: 60px 0;
+            flex-wrap: wrap;
+        }
+
+        .cuadro-visual-video {
+            flex: 1;
+            min-width: 350px;
+        }
+
+        .video-wrapper-ajustado {
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border: 3px solid #f39c12;
+        }
+
+        .contenido-texto-proceso {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* GRID DE SERVICIOS ADICIONALES (CUADROS) */
+        .grid-servicios-iconos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+     
+     .brand-logo-img {
+    width: 65px;
+    height: 69px;
+    object-fit: contain;
+}
+        .card-servicio-icono:hover {
+            transform: translateY(-5px);
+            border-color: #f39c12;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
